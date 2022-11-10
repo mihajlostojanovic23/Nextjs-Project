@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* -----------Responsive----------- */
+@media only screen and (max-width: 505px) {
+  .header {
+    display: block;
+  }
+
+  .nav_items {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar {
+    justify-content: center;
+    margin: 10px 0px;
+  }
+
+  .image {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 753px) {
+  .info_details {
+    display: block;
+  }
+
+  .picture_info {
+    display: flex;
+    justify-content: center;
+    width: 100% !important;
+  }
+
+  .picture {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .info_details {
+    height: unset;
+    margin-top: 20px;
+  }
+
+  .details {
+    min-height: 100vh;
+  }
+
+  .other_info {
+    width: 100%;
+  }
+
+  .name,
+  .instructions,
+  .category,
+  .alcoholic,
+  .date_modified {
+    text-align: center !important;
+  }
+
+  .date_modified {
+    position: relative;
+    margin: 20px 0px;
+  }
+}
